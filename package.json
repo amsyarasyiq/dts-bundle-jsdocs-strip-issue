@@ -1,0 +1,16 @@
+{
+  "name": "dts-bundle-jsdocs-strip-issue",
+  "type": "module",
+  "scripts": {
+    "bundle": "dts-bundle-generator -o ./test/output.d.ts ./test/input.ts --no-check"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dts-bundle-generator": "^9.5.1"
+  }
+}
